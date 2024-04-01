@@ -47,12 +47,12 @@ rövN_decrypt () {
   
 } 
 
-N="24"
+N="1"
 mode=""
 zip="false"
 
 usage() {
-  echo "Usage: rov.sh [-e|--encrypt] [-d|--decrypt] [-n|--num-passes NUM_PASSES=24] [-z|--gzip]"
+  echo "Usage: rov.sh [-e|--encrypt] [-d|--decrypt] [-n|--num-passes NUM_PASSES=1] [-z|--gzip]"
   echo
   echo "Reads from stdin and outputs to stdout. "
 }
