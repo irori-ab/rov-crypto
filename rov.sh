@@ -2,8 +2,8 @@
 
 # Extended Rövarspråket [1] encryption/decryption algorithm.
 # Also implemented recursive variants RövN where the algorithm is 
-# applied N times. To get acceptable encryption also of numbers even
-# they are treated as "consonants" in the original logic.
+# applied N times. To get acceptable encryption also of numbers, even
+# digits are treated as "consonants" in the original logic.
 #
 # For natural reasons the ciphertext lends itself well to compression, which
 # is why the tool implements the RövN+GZIP variant.
