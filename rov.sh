@@ -15,13 +15,15 @@
 #
 # * [1] https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket
 
+# GNU Sed
+GSED="${ROV_GSED:-gsed}"
+
 röv1_encrypt () {
-  gsed -E 's/([BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz02468])/\1o\1/g'
+  "$GSED" -E 's/([BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz02468])/\1o\1/g'
 }
 
 röv1_decrypt () {
-  # GNU Sed
-  gsed -E 's/([BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz02468])o\1/\1/g'
+  "$GSED" -E 's/([BCDFGHJKLMNPQRSTVXZbcdfghjklmnpqrstvxz02468])o\1/\1/g'
 }
 
 rövN_encrypt () {
