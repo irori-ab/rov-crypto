@@ -4,7 +4,7 @@
 
 ## Background
 
-An extended [Rövarspråket](https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket) encryption/decryption algorithm. To get acceptable encryption also of numbers even they are treated as "consonants" in the original logic. Also implemented are recursive variants Röv-N (`-n N`) where the algorithm is applied in N passes.
+An extended [Rövarspråket](https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket) encryption/decryption algorithm. To get acceptable encryption also of numbers, even digitsgit st are treated as "consonants" in the original logic. Also implemented are recursive variants Röv-N (`-n N`) where the algorithm is applied in N passes.
 
 For natural reasons the ciphertext lends itself well to compression, which
 is why the tool implements the Röv-N+GZIP variant (`-z`).
