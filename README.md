@@ -8,7 +8,7 @@ An extended [Rövarspråket](https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ke
 
 ## Examples
 
-```
+```bash
 # encoding
 $ echo rövarspråket | ./rov.sh -e -n 1
 rorövovarorsospoproråkoketot
